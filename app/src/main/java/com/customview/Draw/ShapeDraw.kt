@@ -42,12 +42,12 @@ class ShapeDraw : View {
         //抗锯齿功能
         circlePaint.isAntiAlias = true
         //设置画笔颜色
-        circlePaint.color = Color.BLUE
+        circlePaint.color = Color.GRAY
         //设置填充样式
         // Style.FILL 全部填充即沾满这个区域
         // Style.FILL_AND_STROKE
         // Style.STROKE 边框即中间为空的
-        circlePaint.style = Paint.Style.FILL_AND_STROKE
+        circlePaint.style = Paint.Style.STROKE
         //设置画笔宽度
         circlePaint.strokeWidth = 10.0f
         //设置阴影
@@ -72,10 +72,11 @@ class ShapeDraw : View {
 
         //工具类RectF与Rect
         rectPaint = Paint()
-        pointPaint.color = Color.RED
-        pointPaint.isAntiAlias = true
-        pointPaint.strokeWidth = 10.0f
+        rectPaint.color = Color.RED
+        rectPaint.isAntiAlias = true
+        rectPaint.strokeWidth = 10.0f
         pointPaint.style = Paint.Style.STROKE
+        rectPaint.strokeCap = Paint.Cap.ROUND
 
 
     }
@@ -88,6 +89,8 @@ class ShapeDraw : View {
         canvas!!.drawRGB(255, 255, 255)
         //画圆
         canvas.drawCircle(200.0f, 200.0f, 150.0f, circlePaint)
+
+
 
 
         //画直线
@@ -103,16 +106,16 @@ class ShapeDraw : View {
         canvas.drawPoint(100.0f, 100.0f, pointPaint)
 
         //直接构造矩形
-        canvas.drawRect(50f, 450f, 150f, 550f, pointPaint)
+        canvas.drawRect(50f, 450f, 150f, 550f, rectPaint)
 
 
         //使用RectF构造
-        val rect = RectF(120f, 10f, 210f, 100f)
-        canvas.drawRect(rect, pointPaint)
+        val rect = RectF(120f, 800f, 210f, 900f)
+        canvas.drawRect(rect, rectPaint)
 
         //使用Rect构造
-        val rect2 = Rect(230, 10, 320, 100)
-        canvas.drawRect(rect2, pointPaint)
+        val rect2 = Rect(230, 800, 320, 900)
+        canvas.drawRect(rect2, rectPaint)
 
         //圆角矩形
         //参数：
@@ -130,6 +133,12 @@ class ShapeDraw : View {
         //boolean useCenter:是否有弧的两边，True，还两边，False，只有一条弧
         val rect1 = RectF(50f, 600f, 250f, 800f)
         canvas.drawArc(rect1, 0f, 90f, false, pointPaint)
+
+
+        var rectF = RectF(500f,800f,700f,1000f)
+        canvas.drawArc(rectF,0f,360f,false,circlePaint)
+        canvas.drawArc(rectF,-90f,180f,false,linePaint)
+
     }
 
 

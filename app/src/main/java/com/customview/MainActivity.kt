@@ -21,4 +21,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, PathDrawActivity::class.java);
         startActivity(intent)
     }
+
+    fun switchButton(view: View) {
+        val intent = Intent(this, SwitchViewActivity::class.java);
+        startActivity(intent)
+    }
 }
