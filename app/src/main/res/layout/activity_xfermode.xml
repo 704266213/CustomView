@@ -8,14 +8,8 @@
         android:orientation="vertical"
         tools:context=".DrawBaseShapeActivity">
 
-   <com.customview.Draw.SwitchView
+    <com.customview.Draw.XfermodeDraw
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-    />
-
-
-    <com.customview.Draw.TouchDrawView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="wrap_content"/>
 
 </LinearLayout>

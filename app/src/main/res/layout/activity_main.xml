@@ -58,9 +58,10 @@
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="canvas变换与操作"
+            android:text="setXfermode图形混合模式"
             android:gravity="center"
             android:minHeight="50dp"
+            android:onClick="goToXfermode"
             android:textColor="@android:color/white"
             android:background="@color/colorPrimary"
             android:layout_marginTop="20dp"
