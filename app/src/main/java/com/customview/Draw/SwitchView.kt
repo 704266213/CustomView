@@ -85,6 +85,11 @@ class SwitchView : View, View.OnClickListener {
 
     }
 
+    override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec)
+
+        setMeasuredDimension(widthMeasureSpec, 400)
+    }
 
     private var currentValue = 1f
     private var isOpen = false
