@@ -35,6 +35,8 @@ class ShapeDraw : View {
 
     private lateinit var rectPaint: Paint
 
+    private var path = Path()
+
 
     private fun intiPaint() {
         //设置画笔基本属性
@@ -79,6 +81,10 @@ class ShapeDraw : View {
         rectPaint.strokeCap = Paint.Cap.ROUND
 
 
+        path.moveTo(100f, 300f)
+        path.quadTo(200f, 200f, 300f, 300f)
+        path.quadTo(400f, 400f, 500f, 300f)
+
     }
 
 
@@ -89,8 +95,6 @@ class ShapeDraw : View {
         canvas!!.drawRGB(255, 255, 255)
         //画圆
         canvas.drawCircle(200.0f, 200.0f, 150.0f, circlePaint)
-
-
 
 
         //画直线
@@ -135,9 +139,14 @@ class ShapeDraw : View {
         canvas.drawArc(rect1, 0f, 90f, false, pointPaint)
 
 
-        var rectF = RectF(500f,800f,700f,1000f)
-        canvas.drawArc(rectF,0f,360f,false,circlePaint)
-        canvas.drawArc(rectF,-90f,180f,false,linePaint)
+        var rectF = RectF(500f, 800f, 700f, 1000f)
+        canvas.drawArc(rectF, 0f, 360f, false, circlePaint)
+        canvas.drawArc(rectF, -90f, 180f, false, linePaint)
+
+
+
+
+        canvas.drawPath(path, circlePaint)
 
     }
 

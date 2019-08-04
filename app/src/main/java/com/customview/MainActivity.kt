@@ -13,17 +13,22 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun shapeDraw(view: View) {
-        val intent = Intent(this, DrawBaseShapeActivity::class.java);
+        val intent = Intent(this, DrawBaseShapeActivity::class.java)
         startActivity(intent)
     }
 
     fun pathDraw(view: View) {
-        val intent = Intent(this, PathDrawActivity::class.java);
+        val intent = Intent(this, PathDrawActivity::class.java)
         startActivity(intent)
     }
 
     fun switchButton(view: View) {
-        val intent = Intent(this, SwitchViewActivity::class.java);
+        val intent = Intent(this, SwitchViewActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun goToXfermode(view: View) {
+        val intent = Intent(this, XfermodeActivity::class.java)
         startActivity(intent)
     }
 }

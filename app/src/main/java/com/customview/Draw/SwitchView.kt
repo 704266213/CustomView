@@ -119,7 +119,7 @@ class SwitchView : View, View.OnClickListener {
 
     override fun onClick(p0: View?) {
         val valueAnimator = ValueAnimator.ofFloat(0f, 1f)
-        valueAnimator.duration = 500
+        valueAnimator.duration = 200
         valueAnimator.addUpdateListener {
             currentValue = it.animatedValue.toString().toFloat()
             invalidate()
