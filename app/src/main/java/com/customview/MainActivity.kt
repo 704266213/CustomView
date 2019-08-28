@@ -31,4 +31,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, XfermodeActivity::class.java)
         startActivity(intent)
     }
+
+    fun goToGirlLayout(view: View) {
+        val intent = Intent(this, GirlLayoutActivity::class.java)
+        startActivity(intent)
+    }
 }

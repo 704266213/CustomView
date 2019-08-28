@@ -144,8 +144,6 @@ class ShapeDraw : View {
         canvas.drawArc(rectF, -90f, 180f, false, linePaint)
 
 
-
-
         canvas.drawPath(path, circlePaint)
 
     }

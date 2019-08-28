@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GirlLayout">
+        <attr name="rowCount" format="integer"/>
+        <attr name="verticalLinesWidth" format="dimension"/>
+        <attr name="horizontalLinesHeight" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="PieChartView">
+        <attr name="startAngle" format="float"/>
+        <attr name="outCircleWidth" format="dimension"/>
+        <attr name="outCircleSpace" format="float"/>
+        <attr name="outCircleSpaceColor" format="color"/>
+        <attr name="innerCircleWidth" format="dimension"/>
+        <attr name="innerCircleWidthColor" format="color"/>
+    </declare-styleable>
+
+</resources>

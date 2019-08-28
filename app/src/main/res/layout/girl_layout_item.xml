@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/detail_employer_manager"
+          android:drawablePadding="10dp"
+          android:gravity="center"
+          android:background="@android:color/white"
+          android:paddingTop="18sp"
+          android:paddingBottom="18sp"
+          android:text="班组管理"
+          android:textColor="#333333"
+          android:textSize="13sp"
+/>
