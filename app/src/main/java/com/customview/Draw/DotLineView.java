@@ -52,7 +52,6 @@ public class DotLineView extends View {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
-
         setMeasuredDimension(widthMeasureSpec, dotRadius * 2);
     }
 

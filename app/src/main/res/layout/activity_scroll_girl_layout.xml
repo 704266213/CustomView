@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.customview.layout.ScrollGirlLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/girlLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:horizontalLinesHeight="8dp"
+        app:rowCount="3"
+        app:verticalLinesWidth="8dp">
+
+    <TextView
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="班组管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="考勤管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="班组管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="考勤管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="班组管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="考勤管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="班组管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="考勤管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="班组管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="考勤管理"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/detail_employer_manager"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:paddingTop="18sp"
+            android:paddingBottom="18sp"
+            android:text="员工申请"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+</com.customview.layout.ScrollGirlLayout>
+

@@ -38,12 +38,12 @@ public class GirlLayout extends ViewGroup {
 
 
     private void initView(AttributeSet attrs) {
-
-        final TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.GirlLayout);
-        rowCount = a.getInt(R.styleable.GirlLayout_rowCount, 3);
-        verticalLinesWidth = a.getDimensionPixelSize(R.styleable.GirlLayout_verticalLinesWidth, 3);
-        horizontalLinesHeight = a.getDimensionPixelSize(R.styleable.GirlLayout_horizontalLinesHeight, 3);
-        a.recycle();
+//
+//        final TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.GirlLayout);
+//        rowCount = a.getInt(R.styleable.GirlLayout_rowCount, 3);
+//        verticalLinesWidth = a.getDimensionPixelSize(R.styleable.GirlLayout_verticalLinesWidth, 3);
+//        horizontalLinesHeight = a.getDimensionPixelSize(R.styleable.GirlLayout_horizontalLinesHeight, 3);
+//        a.recycle();
     }
 
 
